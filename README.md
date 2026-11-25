@@ -114,9 +114,9 @@ There is one more .txt file that needs permissions changed and that is the hidde
 <img src="https://i.imgur.com/NpOtYP3.png" height="100%" width="100%" alt="Hidden file .project_x.txt permissions"/>
 </p>
 
-.project_x.txt is hidden for a reason. It is a sensitive file and no one should be able to write to it and modify it, not even my user account researcher2. My security research team and I all do, however, need to be able to read this file. Right now, both my user owner account and the group owner account research_team have write (w) permissions for this file but the research team can't read (r) the file. 
+<b>.project_x.txt</b> is hidden for a reason. It is a sensitive file and no one should be able to write to it and modify it, not even my user account researcher2. My security research team and I all do, however, need to be able to read this file. Right now, both my user owner account and the group owner account research_team have write (w) permissions for this file but the research team can't read (r) the file. 
 
-To change that, I use the command chmod u-w, g-w, g+r .project_x.txt to remove write permissions from user and group, and add read permissions to group for this file.
+To change that, I use the command <b>chmod u-w, g-w, g+r .project_x.txt</b> to remove write permissions from user and group, and add read permissions to group for this file.
 
 <p align="center">
 <br/>
@@ -139,7 +139,7 @@ The last thing that I notice is that the drafts subdirectory (folder) in my proj
 <img src="https://i.imgur.com/rv4zuWc.png" height="100%" width="100%" alt="Group drafts folder permissions image"/>
 </p>
 
-On this particular folder, I should be the only one with the ability to access this folder, so I am going to remove my team's execute permissions using the command chmod g-x drafts
+On this particular folder, I should be the only one with the ability to access this folder, so I am going to remove my team's execute permissions using the command <b>chmod g-x drafts</b>
 
 <p align="center">
 <br/>
