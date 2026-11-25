@@ -1,4 +1,4 @@
-<h1>File permissions to enforce Least Privilege in Linux</h1>
+<h1>Configuring file permissions to enforce Least Privilege in Linux</h1>
 
 <h2>Project Description</h2>
 The Linux operating system allows cybersecurity professionals the ability to manage file permissions in an extremely easy and efficient manner using a command line interface. In this exercise, I will use the Bash Shell to review file and directory (folder) permissions. I will modify file permissions so that only appropriate users and groups have access to the files in a fictitious scenario wherein I am a security researcher in a research team at a large enterprise. I will also remove unauthorized permissions to these files and directories according to the principle of least privilege - users and groups should only have access and permissions to files and folders required for them to complete their own job tasks.
